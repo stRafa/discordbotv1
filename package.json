@@ -1,0 +1,16 @@
+{
+  "name": "discordbotv1",
+  "version": "1.0.0",
+  "description": "It's a bot for testing discord funcionalities",
+    "scripts": {
+    "start": "node .",
+    "deploy:commands": "node ./app-utils/deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
